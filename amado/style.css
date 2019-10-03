@@ -1,0 +1,280 @@
+    /* ####################################################
+    :: Template Name: Essence - Fashion Ecommerce Template
+    :: Author: Colorlib
+    :: Author URL: https://colorlib.com
+    :: Description: Essence is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform.
+    :: Version: 1.0.0
+    :: Created: April 27, 2018
+    :: Last Updated: May 2, 2018
+    ::Textdomain:amado
+    #################################################### */
+
+    /* ---------------------------------------
+    ##### - PLACE YOUR CUSTOM CSS HERE - #####
+    --------------------------------------- */
+
+    ul li, ol li {
+        list-style: none;
+    }
+
+
+    .newsletter-area {
+        width: 100%;
+
+    }
+
+    .footer_area {
+        width: 100%;
+
+    }
+
+    .star-rating {
+
+        height: 4em!important;
+
+    }
+
+    /*.......................woocommerce custom css.............*/
+
+    .star-rating {
+        float: right;
+        overflow: hidden;
+        position: relative;
+        height: 1em;
+        line-height: 1;
+        font-size: 1em;
+        width: 5.4em;
+        font-family: star;
+    }
+
+    .star-rating::before {
+        content: '\73\73\73\73\73';
+        color: #d3ced2;
+        float: left;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    .star-rating span {
+        overflow: hidden;
+        float: left;
+        top: 0;
+        left: 0;
+        position: absolute;
+        padding-top: 1.5em;
+    }
+
+    .star-rating span::before {
+        content: '\53\53\53\53\53';
+        top: 0;
+        position: absolute;
+        left: 0;
+        color:#fbb710;
+    }
+    .woocommerce-result-count, .woocommerce-page .woocommerce-result-count {
+         float: none;
+    }
+
+    div.product div.images.woocommerce-product-gallery {
+        position: relative;
+        width: 100%;
+    }
+
+    .woocommerce table.cart td:nth-of-type(4), .woocommerce table.cart th:nth-of-type(4) {
+        display: none;
+    }
+	.cart-table-area .container-fluid .woocommerce{
+        width:100%;
+    }
+
+    .cart-table-area .cart-summary .cart_totals .cart-btn .checkout-button button {
+        width: 95%;
+        text-align: center;
+        font-size: 23px;
+        background-color: #FBB710;
+
+    }
+
+    .cart-table-area .woocommerce .col-lg-8{
+        float:left;
+    }
+    .cart-table-area .woocommerce .col-lg-4{
+        float:left;
+    }
+
+
+
+    input[name='update_cart'] {
+        display: none !important;
+    }
+
+    button[name='update_cart'] {
+        display: none !important;
+    }
+
+    .main-content-wrapper .cart-table-area .cart-summary {
+        margin-top: 0 !important;
+    }
+
+    .woocommerce-billing-fields .woocommerce-billing-fields__field-wrappernice-select .nice-select{
+        display: none !important;
+    }
+
+     .nice-select {
+
+        display: none;
+
+
+    }
+
+    .woocommerce-input-wrapper .select2-container--default .select2-selection--single .select2-selection__rendered {
+        color: #444;
+        line-height: 60px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-left: 30px;
+    }
+
+    .woocommerce-input-wrapper .select2-container--default .select2-selection--single .select2-selection__arrow {
+        height: 60px;
+        position: absolute;
+        top: 1px;
+        right: 10px;
+        width: 20px;
+    }
+
+    .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper .woocommerce-input-wrapper {
+        height: auto;
+        width: 100%;
+    }
+
+    .woocommerce-billing-fields__field-wrapper .woocommerce-input-wrapper .country_to_state{
+
+    }
+
+    .woocommerce-billing-fields__field-wrapper #billing_first_name_field{
+        float: left;
+    }
+
+    .woocommerce-billing-fields__field-wrapper #billing_last_name_field{
+        float: left;
+    }
+
+    .woocommerce-billing-fields__field-wrapper #billing_postcode_field{
+        float: left;
+    }
+    .woocommerce-billing-fields__field-wrapper #billing_phone_field{
+        float: left;
+    }
+
+    .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper #billing_field_anyname{
+        height: 30%;
+    }
+
+
+
+    .woocommerce .woocommerce-checkout .woocommerce-checkout-payment .wc_payment_methods{
+        background-color: #F5F7FA;
+    }
+
+    .woocommerce .woocommerce-checkout-review-order .woocommerce-checkout-payment .wc_payment_method .payment_box {
+        display: none !important;
+    }
+
+    .woocommerce-checkout-payment .woocommerce-terms-and-conditions-wrapper .woocommerce-privacy-policy-text{
+        display:none;
+    }
+
+    .woocommerce table.shop_table{
+        border:none;
+    }
+
+    .woocommerce-checkout-review-order .woocommerce-checkout-payment .form-row{
+        background-color: #F5F7FA;
+    }
+    .woocommerce table.shop_table tbody th, .woocommerce table.shop_table tfoot td, .woocommerce table.shop_table tfoot th,
+    .cart-table-area .woocommerce table.shop_table tbody td
+    {
+        border:none !important;
+    }
+
+
+
+    .woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register{
+        width:50%;
+    }
+
+
+    .woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea{
+        padding:2%;
+    }
+
+
+    .footer_area .container .single_widget_area .footer_menu .menu-footer-menu-container ul li{
+        margin-left: 60px;
+
+    }
+
+    .footer_area .container .single_widget_area .footer_menu .menu-footer-menu-container ul li a{
+
+       color:#fff;
+       font-size: 14px;
+       text-transform: uppercase;
+
+    }
+    .footer_area .container .single_widget_area .footer_menu .menu-footer-menu-container .navbar-nav .menu-item .menu-item-type-post_type {
+
+        padding: 10px 30px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+
+    }
+
+
+.amado_product_area .container-fluid .product-topbar .total-products .view .fa{
+    margin-top: 11px;
+}
+
+/*.....................color section................*/
+
+.shop_sidebar_area .color .widget-desc .d-flex .Gray{
+    background-color: gray;
+}
+.shop_sidebar_area .color .widget-desc .d-flex .Blue{
+    background-color: blue;
+}
+.shop_sidebar_area .color .widget-desc .d-flex .Green{
+    background-color: green;
+}
+.shop_sidebar_area .color .widget-desc .d-flex .Yellow{
+    background-color: #FFF56A;
+}
+.shop_sidebar_area .color .widget-desc .d-flex .Black{
+    background-color: #000000;
+}
+
+.shop_sidebar_area .color .widget-desc .d-flex .White{
+    background-color: #fff;
+}
+
+.shop_sidebar_area .color .widget-desc .d-flex .Brown{
+    background-color: #DC0647;
+}
+
+.shop_sidebar_area .color .widget-desc .d-flex .Burlywood{
+    background-color: #8B7355;
+}
+
+
+
+
+
+
+
+
+
+
